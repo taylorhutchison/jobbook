@@ -9,9 +9,9 @@ export class DataService {
 
   constructor() { 
     const jobs = [
-      { id: this.generateGUID(), title: 'Job 1', description: 'Job 1 Description' },
-      { id: this.generateGUID(), title: 'Job 2', description: 'Job 2 Description' },
-      { id: this.generateGUID(), title: 'Job 3', description: 'Job 3 Description' }
+      { id: this.generateGUID(), title: 'Job A', description: 'Job 1 Description' },
+      { id: this.generateGUID(), title: 'Job B', description: 'Job 2 Description' },
+      { id: this.generateGUID(), title: 'Job C', description: 'Job 3 Description' }
     ];
     console.log(jobs);
     this.jobs.set(jobs);

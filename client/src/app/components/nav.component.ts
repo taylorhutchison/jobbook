@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
   `,
   styles: `
     nav {
-      background-color: #333;
+      background-color: #555;
       color: white;
       padding: 10px;
       height: 50px;

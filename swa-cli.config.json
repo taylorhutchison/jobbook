@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "jobbook": {
+      "appLocation": "client",
+      "apiLocation": "api\\bin\\Release\\net8.0\\publish",
+      "outputLocation": "dist\\jobbook\\browser",
+      "apiLanguage": "dotnetisolated",
+      "apiVersion": "8.0",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:4200"
+    }
+  }
+}
